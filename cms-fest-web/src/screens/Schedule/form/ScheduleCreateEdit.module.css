@@ -1,0 +1,147 @@
+
+.dialog {
+    width: 100%;
+    min-height: 100px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  .dialog > div {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1; 
+    padding: 20px 0;
+    margin-bottom: 10px;
+    min-height: 100px;
+    max-height: 230px;
+    overflow: auto;
+  }
+  
+  .dialog h2 {
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .dialog > button {
+    align-self: center; 
+    margin-top: auto;
+  }
+  
+
+.form {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.wrapper-inputs {
+  width: 100%;
+  min-width: 750px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.input-container {
+  width: 300px !important;
+}
+
+.form label {
+  width: 100%;
+  max-width: 300px;
+  font-size: 15px;
+}
+
+.button-item-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 140px;
+}
+
+.buttons-form {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.buttons-form > *:nth-child(n) {
+  margin-right: 10px;
+}
+
+.items-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 12px;
+  min-height: 32px;
+  height: 100%;
+  background-color: var(--color-gray);
+  border-radius: 16px;
+  font-size: 14px;
+  color: var(--color-gray-80);
+  gap: 8px;
+}
+
+.chip > button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: var(--color-slate-primary);
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.chip > button:hover {
+  background-color: var(--color-gray-40);
+  border-radius: 50%;
+}
+
+.dialog-items {
+  width: 520px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+}
+
+
+
+@media (max-width: 690px) {
+  .wrapper-inputs {
+    width: 100%;
+    min-width: 350px;
+  }
+}
+
+
+@media (max-width: 380px) {
+ input{
+    width: 90% !important;
+  }
+}

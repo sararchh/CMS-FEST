@@ -1,0 +1,31 @@
+.aside-container-details {
+    grid-area: asidedetails;
+    margin: 2em 0.3em;
+}
+
+.avatar-container {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+.avatar-container svg {
+    margin-left: 5px;
+}
+
+.container-logo img {
+    max-height: 50px;
+}
+.span-info {
+    font-weight: initial;
+    /* font-weight: bold; */
+}
+
+@media (max-width: 500px) {
+    .avatar-container {
+      font-size: 16px;
+    }
+  }

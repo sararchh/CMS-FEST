@@ -1,0 +1,92 @@
+.container {
+}
+
+.form {
+  padding: 20px 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.wrapper-inputs {
+  width: 100%;
+  min-width: 750px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+
+.input-container {
+  width: 300px !important;
+}
+
+.form label {
+  width: 100%;
+  max-width: 300px;
+  font-size: 15px;
+}
+
+.button-item-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 140px;
+}
+
+.buttons-form {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.buttons-form > *:nth-child(n) {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .wrapper-inputs {
+    flex-flow: column nowrap;
+    gap: 20px 0;
+    min-width: 0;
+  }
+
+  .input-container {
+    width: 100% !important;
+  }
+
+  .form {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper-inputs {
+    flex-flow: column nowrap;
+    gap: 20px 0;
+  }
+
+  .input-container {
+    width: 100% !important;
+  }
+
+  .buttons-form {
+    gap: 10px;
+  }
+
+  .buttons-form > *:nth-child(n) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .form {
+    margin: 10px;
+    padding: 15px;
+  }
+}

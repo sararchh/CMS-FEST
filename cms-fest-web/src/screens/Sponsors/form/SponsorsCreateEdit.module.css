@@ -1,0 +1,127 @@
+.container {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.container-itens {
+  display: grid;
+  grid-template-columns: 20% 2fr;
+  grid-template-rows: auto auto 2fr;
+  gap: 0 1em;
+}
+
+.wrapper-inputs {
+  width: 100%;
+  min-width: 750px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  z-index: 9;
+}
+
+
+.center-screen svg {
+  width: 80px;
+  height: 80px;
+}
+
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.form {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.form svg {
+  cursor: pointer;
+}
+
+.card-img {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.wrapper-inputs {
+  width: 100%;
+  min-width: 750px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+
+input:disabled {
+  background-color: #d5d5d520;
+  border-radius: 5px 5px 0 0;
+}
+
+.input-container {
+  width: 300px !important;
+}
+
+.form label {
+  width: 100%;
+  max-width: 300px;
+  font-size: 15px;
+}
+
+.button-item-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 180px;
+}
+
+.buttons-form {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.buttons-form > *:nth-child(n) {
+  margin-right: 10px;
+}
+
+@media (max-width: 1335px) {
+  .container-itens {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper-inputs {
+    min-width: 320px;
+  }
+}
+

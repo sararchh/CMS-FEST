@@ -1,0 +1,27 @@
+.button-title {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-title > h3 {
+  font-size: 16px ;
+}
+
+.user-icon {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .user-icon {
+    display: block;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .button-title > h3 {
+    display: none;
+  }
+}

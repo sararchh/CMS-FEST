@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-white);
+    height: 120px;
+}
+.container-alternative {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background: var(--bgc-primary);
+    height: 120px;
+}
+

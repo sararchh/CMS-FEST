@@ -1,0 +1,150 @@
+.container {
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  background: var(--bgc-primary);
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 2em 1em 4em 1em;
+}
+
+.container > h1 {
+  font-family: 'Montserrat-SemiBold' !important;
+  margin-bottom: 1em;
+}
+
+.container-infos {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content-about {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 2em;
+  display: grid;
+  grid-template-columns: 400px 3fr;
+}
+
+.content-logo {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-infos {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2em;
+}
+
+.content-infos > a:nth-child(n) {
+  margin: 0 40px;
+}
+
+.content-infos > div:nth-child(n) {
+  margin: 0 40px;
+}
+
+.thumb-logo {
+  margin: 0 10px;
+}
+
+.content-form {
+}
+
+.card-form {
+  width: 570px;
+}
+
+.card-form form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.button-item-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  max-width: 180px;
+  font-weight: bold;
+
+  margin: 0 auto;
+}
+
+.button-item-form svg {
+  width: 26px;
+  height: 26px;
+}
+
+.wrapper-inputs {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (max-width: 1199px) {
+  .content-about {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content-infos > div:nth-child(n) {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 895px) {
+  .container-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-about {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .thumb-logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-form {
+    width: 100%;
+  }
+
+  .wrapper-inputs input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    padding: 10px;
+  }
+}

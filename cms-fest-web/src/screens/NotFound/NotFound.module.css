@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container h1,h2,h3,h4 {
+    font-size: 25px;
+}

@@ -1,0 +1,17 @@
+
+
+.button-thumb {
+    transition: all 0.3s ease-in-out;
+  }
+  .button-thumb:hover {
+    scale: 1.08;
+  }
+  
+  .button-thumb,
+  .button-thumb > img {
+    width: 300px;
+    max-width: 300px;
+    height: 355px;
+    max-height: 355px;
+    object-fit: cover;
+  }

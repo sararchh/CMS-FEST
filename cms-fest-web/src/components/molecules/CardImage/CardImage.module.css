@@ -1,0 +1,11 @@
+.container-details img {
+  width: 40rem;
+  height: 20rem;
+  flex-shrink: 0;
+}
+
+.container-details button {
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--bgc-orange);
+}

@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+
+    "rootDirs": [
+      "src",
+      "tests"
+    ],
+    "baseUrl": "src",
+    // "paths": {
+    //   "@config": ["./src/config"],
+    //   "@controllers": ["./src/controllers"],
+    //   "@errors": ["./src/errors"],
+    //   "@models": ["./src/models"],
+    //   "@repositories": ["./src/repositories"],
+    //   "@services": ["./src/services"],
+    //   "@schemas": ["./src/schemas"],
+    //   "@utils": ["./src/utils"],
+    //   "@ts": ["./src/ts"],
+    // },
+    "paths": {
+      "@/*": [
+        "*"
+      ]
+    },
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths"
+      }
+    ],
+    "typeRoots": [
+      "./@types"
+    ]
+  },
+
+  "include": [
+    "src",
+    "tests"
+  ]
+}
+

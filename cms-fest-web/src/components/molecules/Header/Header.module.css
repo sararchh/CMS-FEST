@@ -1,0 +1,33 @@
+.header-container {
+  grid-area: header;
+  margin: 2em 1em 1em 1em;
+  /* width: calc(100vw - 300px); */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+}
+
+.today-date {
+  text-transform: capitalize;
+}
+
+.welcome-msg {
+  margin: 0;
+}
+
+.img-search {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    font-size: 15px;
+  }
+}

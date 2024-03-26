@@ -1,0 +1,90 @@
+.container {
+  gap: 20px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  height: 110px;
+}
+
+.wrapper h1 {
+  font-weight: 500;
+  font-size: 17px !important;
+  margin-top: 0;
+}
+
+.wrapper svg {
+  width: 25px;
+  height: 25px;
+}
+
+.container-newapp {
+  margin: 2.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.container-newapp a {
+  text-decoration: none;
+}
+
+.container-newapp a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 150px !important;
+  height: 50px;
+  padding: 5px 10px;
+  background-color: #2e7afb;
+  border-radius: 12px;
+}
+.container-newapp a > p {
+  font-size: 15px !important;
+  color: var(--color-white);
+}
+.content-app-item {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin: 1.5em 0;
+  padding: 3.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-app-item-options {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+.content-app-item-options h3 {
+  margin: 0 1em;
+  color: #29b42f;
+  font-size: 18px;
+}
+.app-item-option {
+  width: 25px;
+  height: 30px;
+  margin: 0 5px;
+}
+.content-app-item-options a {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

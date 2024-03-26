@@ -1,0 +1,94 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.header-content button,
+.buttonBlue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 240px;
+  margin-right: 0.5em;
+  background-color: #2e7afb !important;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.header-content a {
+  text-decoration: none;
+}
+
+.header-content button,
+.buttonBlue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 240px;
+  margin-right: 0.5em;
+  background-color: #2e7afb !important;
+}
+
+.header-content svg {
+  /* margin-right: 0.5em; */
+}
+
+.header-dialog {
+  width: 100%;
+  height: 100%;
+}
+
+.header-dialog h2 {
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.center-screen svg {
+  width: 80px;
+  height: 80px;
+}
+
+
+.list-item {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-item h2 {
+  text-transform: capitalize;
+  margin: 0;
+  font-size: 20px;
+}
+
+.list-item-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 70px;
+  margin-right: 20px;
+}

@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    min-height: 300px;
+    max-height: 600px;
+    background: var(--color-white);
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 2em 1em 4em 1em;
+}
+
+.container>h1 {
+    font-family: 'Montserrat-SemiBold' !important;
+    margin-bottom: 1em;
+}
+
+.content-about{
+    width: 100%;
+    max-width: 1200px;
+}
+.content-about>p{
+    font-family: 'Montserrat-Regular' !important;
+    line-height: 40px;
+}
+
+
+
+@media (max-width: 1199px) {
+
+    .content-about{
+        padding: 0 1em;
+        text-align: center;
+    }
+
+}

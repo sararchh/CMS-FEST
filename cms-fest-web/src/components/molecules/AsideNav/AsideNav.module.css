@@ -1,0 +1,149 @@
+aside {
+  z-index: 1;
+}
+
+.aside-container-nav {
+  grid-area: asidenav;
+  padding: 10px;
+  padding-left: 20px;
+  min-width: 180px;
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+  background: #f4f7f7;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+  z-index: 9;
+}
+
+.hidden {
+  display: none;
+}
+
+svg {
+  font-size: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.aside-container-nav.closed {
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.aside-container-nav.open {
+  transform: translateX(0);
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon-container {
+  position: fixed;
+  top: 17px;
+  left: 15px;
+
+  z-index: 100;
+  cursor: pointer;
+}
+
+.aside-container-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aside-container-nav.closed {
+  transform: translateX(-100%);
+}
+
+.container-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-logo img {
+  max-height: 50px;
+}
+
+.aside-nav {
+  margin: 3em 0;
+}
+
+.aside-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.aside-li {
+  list-style: none;
+  margin: 1.2em 0;
+}
+
+.navlink-container {
+}
+
+.navlink-container svg {
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+.navlink-container a {
+  color: var(--color-slate-primary);
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 15px !important;
+  text-decoration: none;
+}
+
+.disclosure {
+  margin-top: -5px;
+}
+
+
+.navlink-container a:hover,
+.disclosure a:hover  {
+  color: var(--bgc-primary-800) !important;
+}
+
+.navlink-container a:hover > svg,
+.disclosure:hover > svg {
+  color: var(--bgc-primary-800) !important;
+}
+
+.navlink-container a.active, .disclosure:hover {
+  color: var(--bgc-primary-800) !important;
+}
+
+.navlink-container a.active img {
+  filter: invert(34%) sepia(82%) saturate(2207%) hue-rotate(208deg) brightness(103%) contrast(97%);
+}
+
+.navlink-container:hover img {
+  filter: invert(34%) sepia(82%) saturate(2207%) hue-rotate(208deg) brightness(103%) contrast(97%);
+}
+
+.support-message {
+  max-width: 200px;
+  width: 100%;
+}
+.support-message h3 {
+  font-size: 18px;
+}
+.support-message p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .menu-icon {
+    cursor: pointer;
+    display: flex;
+  }
+}

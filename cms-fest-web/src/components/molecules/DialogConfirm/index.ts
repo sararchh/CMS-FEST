@@ -1,0 +1,1 @@
+export { DialogConfirm } from './DialogConfirm'

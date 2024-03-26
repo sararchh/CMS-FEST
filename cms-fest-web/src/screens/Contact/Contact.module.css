@@ -1,0 +1,74 @@
+.container {
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.header-content button,
+.buttonBlue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 240px;
+  margin-right: 0.5em;
+  background-color: #2e7afb !important;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.center-screen svg {
+  width: 80px;
+  height: 80px;
+}
+
+
+.list-data {
+}
+
+.list-data h2 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.header-dialog {
+  width: 100%;
+  height: 100%;
+}
+
+.header-dialog h2 {
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.header-dialog span {
+  font-family: 'Montserrat-SemiBold';
+}
+
+.dialog-contact {
+  width: 600px;
+}
+
+.footer-table {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  padding: 0.5em 0;
+}
+
+.footer-table span {
+}
